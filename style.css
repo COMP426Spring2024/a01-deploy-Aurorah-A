@@ -1,0 +1,18 @@
+h1 {
+	background-color: bisque;
+	color: green;
+	text-align: center;
+  }
+
+  img {
+	background-color: bisque;
+	border: 3px solid black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	padding: 10px;
+	width: "125";
+	height: "150";
+	text-align: center;
+  }
