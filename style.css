@@ -1,12 +1,14 @@
 h1 {
-	background-color: bisque;
-	color: black;
+	background-color: #e5d9b9;
+	color: #000000;
 	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 90px; 
   }
 
   img {
-	background-color: bisque;
-	border: 3px solid black;
+	background-color: #e5d9b9;
+	border: 3px solid #000000;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -16,14 +18,20 @@ h1 {
   }
   p {
 	margin: 20px;
-	text-align: center 
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px; 
+
 
   }
 
   body {
+	background-image: url("newspaper.jpg");
 	margin: 20px;
 	padding: 10px;
-	text-align: left 
+	text-align: left;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px; 
   }
 
   span {
@@ -35,4 +43,30 @@ h1 {
 
 table{
 	text-align: center;
+}
+
+select{
+	background-color: #ffffff;
+}
+select :hover{
+	text-shadow: #000000;
+}
+
+ol{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+}
+
+img.left{
+	text-align: left;
+	width: 200px;
+	width: 400px;
+}
+
+#on{
+	margin: 20px;
+	padding: 10px;
+	text-align: left;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px; 
 }
